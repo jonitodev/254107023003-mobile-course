@@ -2,6 +2,8 @@
 
 Sumber: [Codelab Minggu 1](https://jti-polinema.github.io/flutter-codelab/01-minggu-1-mobile-development-ecosystem-flutter-refresh/index.html)
 
+Tanggal commit portofolio: **Kamis, 3 September 2026**. Tanggal ini merupakan metadata jadwal mingguan, bukan bukti waktu push ke GitHub.
+
 | | |
 | --- | --- |
 | Nama | Joni Yoga Kusuma |
@@ -15,7 +17,7 @@ Menyiapkan environment Flutter, menjalankan aplikasi pertama, dan mengganti UI d
 ## Fitur utama
 
 - Halaman profil dengan ikon sekolah
-- Nama, NIM, kelas TI-3G, dan label mata kuliah
+- Nama, NIM, kelas TI-3F, dan label mata kuliah
 - Widget dasar: `MaterialApp`, `Scaffold`, `AppBar`, `Center`, `Column`, `Icon`, `Text`
 
 ## Stack teknologi
@@ -39,11 +41,16 @@ Tekan `r` untuk hot reload dan `R` untuk hot restart.
 
 ## Hasil
 
-- `flutter doctor`: Flutter dan Android toolchain hijau
-    Screenshot: [screenshots/ss.jpg](screenshots/ss.jpeg)
+- Bukti setup yang sudah tersedia: [Flutter doctor](screenshots/ss.jpeg)
 - Aplikasi profil mahasiswa berjalan
 - Widget test lulus
-- Screenshot: [screenshots/profil-mahasiswa.png](screenshots/profile.jpeg)
+- Screenshot browser dari aplikasi yang dijalankan ulang pada 14 Oktober 2026:
+
+![Hasil aplikasi Profil Mahasiswa](screenshots/profil-mahasiswa.png)
+
+![Bukti setup Flutter yang sudah tersedia](screenshots/ss.jpeg)
+
+Log pemeriksaan aktual: [docs/validation.txt](docs/validation.txt).
 
 ## Kendala setup
 
@@ -59,4 +66,4 @@ Visual Studio (C++) tidak dipasang; itu hanya untuk target Windows desktop, buka
 
 ## Latihan Dart mandiri
 
-Latihan `hitungLuasPersegiPanjang` dan class `Profil` dikerjakan sendiri di luar AI, sesuai kebijakan Minggu 1 pada codelab.
+Latihan `hitungLuasPersegiPanjang` dan class `Profil` merupakan bagian latihan mandiri pada codelab. Source latihan tersebut belum tersedia di repository; dokumentasi ini tidak mengklaim latihan mandiri sudah diverifikasi. Penyempurnaan repository dan verifikasi aplikasi dibantu AI.

@@ -14,3 +14,6 @@
 
 # Colab / notebook files are not the course language.
 *.ipynb linguist-vendored
+
+# Preserve captured terminal output, including progress padding and blank lines.
+**/docs/*.txt whitespace=-blank-at-eol,-blank-at-eof

@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               SizedBox(height: 16),
               Text('Joni Yoga Kusuma', style: TextStyle(fontSize: 24)),
               Text('NIM 254107023003'),
-              Text('Kelas TI-3G'),
+              Text('Kelas TI-3F'),
               Text('Pemrograman Mobile — Minggu 1'),
             ],
           ),

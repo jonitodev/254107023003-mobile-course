@@ -1,0 +1,17 @@
+# Local Flutter build output and tool caches.
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/coverage/
+**/android/local.properties
+**/android/key.properties
+**/*.jks
+**/*.keystore
+.env
+.env.*
+!.env.example
+**/firebase-service-account*.json
+**/*serviceAccountKey*.json
+
+# Temporary screenshot/verification tooling is kept outside the repository.
+.codex-work/

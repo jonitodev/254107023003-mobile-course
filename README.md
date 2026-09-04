@@ -6,7 +6,7 @@ Repository portfolio mata kuliah **Pemrograman Mobile** (TI-3G) mengikuti [Codel
 | --- | --- |
 | Nama | Joni Yoga Kusuma |
 | NIM | 254107023003 |
-| Kelas | TI-3G |
+| Kelas | TI-3F |
 | Program | D4 Teknik Informatika — JTI Polinema |
 
 ## Struktur repository

@@ -6,7 +6,7 @@ Sumber: [Codelab Minggu 1](https://jti-polinema.github.io/flutter-codelab/01-min
 | --- | --- |
 | Nama | Joni Yoga Kusuma |
 | NIM | 254107023003 |
-| Kelas | TI-3G |
+| Kelas | TI-3F |
 
 ## Tujuan
 

@@ -1,0 +1,16 @@
+# Keep GitHub language stats on Dart, not Flutter platform boilerplate.
+# https://github.com/github-linguist/linguist/blob/main/docs/overrides.md
+
+**/android/** linguist-vendored
+**/ios/** linguist-vendored
+**/linux/** linguist-vendored
+**/macos/** linguist-vendored
+**/windows/** linguist-vendored
+**/web/** linguist-vendored
+
+*.g.dart linguist-generated
+*.freezed.dart linguist-generated
+*.mocks.dart linguist-generated
+
+# Colab / notebook files are not the course language.
+*.ipynb linguist-vendored

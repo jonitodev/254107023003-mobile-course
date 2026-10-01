@@ -1,0 +1,29 @@
+Verification date: 2026-10-14 (Asia/Jakarta)
+flutter analyze
+Analyzing 05-week-5-local-storage-offline-first...              
+
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\widgets\note_editor.dart:57:9 - curly_braces_in_flow_control_structures
+
+1 issue found. (ran in 3.5s)
+Correction: wrapped mounted error branch in braces.
+flutter analyze (rerun)
+Analyzing 05-week-5-local-storage-offline-first...              
+No issues found! (ran in 3.1s)
+flutter test
+00:00 +0: loading C:/Project/254107023003-mobile-course/05-week-5-local-storage-offline-first/test/note_test.dart
+00:00 +0: fromMap aman terhadap field yang hilang
+00:00 +1: flag dirty bertahan pada serialisasi
+00:00 +2: provider sukses dengan repository palsu
+00:00 +3: provider error dengan repository palsu
+00:00 +4: syncNotes membersihkan flag dirty ketika online
+00:00 +5: syncNotes offline mempertahankan catatan dirty
+00:00 +6: edit baru tidak diakui oleh snapshot sync yang lama
+00:00 +7: All tests passed!
+flutter build web --no-web-resources-cdn
+Compiling lib\main.dart for the Web...                          
+Wasm dry run succeeded. Consider building and testing your application with the `--wasm` flag. See docs for more info: https://docs.flutter.dev/platform-integration/web/wasm
+Use --no-wasm-dry-run to disable these warnings.
+Font asset "CupertinoIcons.ttf" was tree-shaken, reducing it from 257628 to 1472 bytes (99.4% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Font asset "MaterialIcons-Regular.otf" was tree-shaken, reducing it from 1645184 to 8976 bytes (99.5% reduction). Tree-shaking can be disabled by providing the --no-tree-shake-icons flag when building your app.
+Compiling lib\main.dart for the Web...                             43.5s
+√ Built build\web

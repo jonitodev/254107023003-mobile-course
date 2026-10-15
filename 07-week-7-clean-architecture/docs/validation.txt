@@ -1,0 +1,21 @@
+Validation date: 2026-10-14 (Asia/Jakarta)
+Platform: Windows host, Flutter web build for browser evidence
+
+flutter analyze
+No issues found! (ran in 3.1s)
+
+flutter test
+00:00 +0: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/browser_note_repository_test.dart: saved note survives a new repository instance
+00:00 +1: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/browser_note_repository_test.dart: corrupted browser data returns failure instead of being overwritten
+00:00 +2: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/get_notes_test.dart: GetNotes meneruskan daftar dari repository
+00:00 +3: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/get_notes_test.dart: GetNotes meneruskan failure tanpa melempar
+00:00 +4: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/get_notes_test.dart: formatShortDate dan normalizeRoute berjalan murni tanpa widget
+00:00 +5: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/validate_note_test.dart: AddNote menolak judul kosong dengan ValidationFailure
+00:00 +6: C:/Project/254107023003-mobile-course/07-week-7-clean-architecture/test/validate_note_test.dart: AddNote menyimpan catatan bila judul valid
+00:00 +7: All tests passed!
+
+Architecture scans (2026-10-14):
+Presentation raw-data access/imports: 0 matches
+Domain/core external framework imports: 0 matches
+Patterns: Dio\(|openDatabase|getDatabasesPath|FlutterSecureStorage|SharedPreferences\.getInstance|jsonDecode|/data/
+Domain/core pattern: import 'package:(flutter|dio|sqflite|firebase|shared_preferences)

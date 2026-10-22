@@ -1,0 +1,77 @@
+{
+  "verificationDate": "2026-10-14",
+  "timezone": "Asia/Jakarta",
+  "scope": "Local analyze and test output. This is not GitHub CI or peer approval.",
+  "results": [
+    {
+      "week": 1,
+      "title": "Flutter profile",
+      "folder": "01-week-1-mobile-development-ecosystem-flutter-refresh",
+      "analysis": "No issues found!",
+      "testsPassed": 1,
+      "testEvidence": "+1: All tests passed!",
+      "source": "../../01-week-1-mobile-development-ecosystem-flutter-refresh/docs/validation.txt",
+      "sha256": "5a2e7990ea5a6d0931c3c8858f8700b5eabdc87c871a8631dc4e48dd8a6bfe1b"
+    },
+    {
+      "week": 2,
+      "title": "Responsive dashboard",
+      "folder": "02-week-2-declarative-ui-responsive-design",
+      "analysis": "No issues found!",
+      "testsPassed": 4,
+      "testEvidence": "+4: All tests passed!",
+      "source": "../../02-week-2-declarative-ui-responsive-design/docs/validation.txt",
+      "sha256": "1a0e84be754c847b95ca298bdf5a06c0f1f3791672c309be9be63de6cf5f1bdc"
+    },
+    {
+      "week": 3,
+      "title": "Navigation & state",
+      "folder": "03-week-3-navigation-state-management",
+      "analysis": "No issues found!",
+      "testsPassed": 4,
+      "testEvidence": "+4: All tests passed!",
+      "source": "../../03-week-3-navigation-state-management/docs/validation.txt",
+      "sha256": "9173db95ab0b32b83b5e03f4cbedc4c1da3e4aacd6b6dca31431ac8e5cb58f58"
+    },
+    {
+      "week": 4,
+      "title": "Networking & REST API",
+      "folder": "04-week-4-networking-rest-api",
+      "analysis": "No issues found!",
+      "testsPassed": 7,
+      "testEvidence": "+7: All tests passed!",
+      "source": "../../04-week-4-networking-rest-api/docs/validation.txt",
+      "sha256": "d7c79cec09df19d9e906a5f53dd435cc576b9dc1cdee09df82744de91ece309b"
+    },
+    {
+      "week": 5,
+      "title": "Local storage & offline",
+      "folder": "05-week-5-local-storage-offline-first",
+      "analysis": "No issues found!",
+      "testsPassed": 7,
+      "testEvidence": "+7: All tests passed!",
+      "source": "../../05-week-5-local-storage-offline-first/docs/validation.txt",
+      "sha256": "a70cdd528efb92068a169bbbaa6d6229eecbe27d0d9f0c44bcc99a7a7846089c"
+    },
+    {
+      "week": 6,
+      "title": "Authentication & notifications",
+      "folder": "06-week-6-authentication-security-fcm",
+      "analysis": "No issues found!",
+      "testsPassed": 11,
+      "testEvidence": "+11: All tests passed!",
+      "source": "../../06-week-6-authentication-security-fcm/docs/validation.txt",
+      "sha256": "0c9bf9dfd1532b4955b788b28bb8ede5b1db0df7a84ff2aa5f186f37a30d7d90"
+    },
+    {
+      "week": 7,
+      "title": "Clean Architecture",
+      "folder": "07-week-7-clean-architecture",
+      "analysis": "No issues found!",
+      "testsPassed": 7,
+      "testEvidence": "+7: All tests passed!",
+      "source": "../../07-week-7-clean-architecture/docs/validation.txt",
+      "sha256": "15c954d496eb2e1cf80e14680598a2ac8d503e2c4f01e114cf0427ddac78cc97"
+    }
+  ]
+}
